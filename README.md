@@ -63,14 +63,7 @@ curl -X POST http://localhost:8080/restaurantes \
     "nome": "Restaurante Exemplo",
     "foto": "https://exemplo.com/foto.jpg",
     "endereco": "Rua Exemplo, 123",
-    "horarioFuncionamento": [
-      {
-        "diaSemana": "SEGUNDA",
-        "horaAbertura": "08:00",
-        "horaFechamento": "18:00"
-      }
-    ]
-  }'
+      }'
 ```
 ### Listar restaurantes (versão simplificada)
 ``` bash
