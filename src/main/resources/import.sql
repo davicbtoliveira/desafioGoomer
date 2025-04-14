@@ -1,0 +1,60 @@
+-- RESTAURANTES
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Sabor do Sul', 'Av. Bento Gonçalves, 123 - Porto Alegre, RS', 'https://images.unsplash.com/photo-1552332386-f8dd00dc2f85');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Delícias da Serra', 'Rua das Hortênsias, 45 - Gramado, RS', 'https://images.unsplash.com/photo-1600891963933-389b0f13a131');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Cantina Italiana', 'Av. Itália, 88 - São Paulo, SP', 'https://images.unsplash.com/photo-1562158070-8cc3d2ac6d5f');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Nordeste na Mesa', 'Rua da Praia, 312 - Recife, PE', 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Boteco Mineiro', 'Av. Afonso Pena, 76 - Belo Horizonte, MG', 'https://images.unsplash.com/photo-1543353071-087092ec3934');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Sushi House', 'Rua Japão, 401 - Curitiba, PR', 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Burguer Prime', 'Av. Paulista, 900 - São Paulo, SP', 'https://images.unsplash.com/photo-1603079841814-1d975d57d2aa');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Vegan Vibe', 'Rua Verde, 123 - Florianópolis, SC', 'https://images.unsplash.com/photo-1600891963933-389b0f13a131');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Sabores do Mar', 'Av. Beira-Mar, 700 - Fortaleza, CE', 'https://images.unsplash.com/photo-1550547660-d9450f859349');
+INSERT INTO tb_restaurante (name, endereco, img_url) VALUES ('Café Colonial', 'Rua das Araucárias, 11 - Nova Petrópolis, RS', 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+
+-- CATEGORIAS
+INSERT INTO tb_categoria (name) VALUES ('Massas');
+INSERT INTO tb_categoria (name) VALUES ('Carnes');
+INSERT INTO tb_categoria (name) VALUES ('Peixes');
+INSERT INTO tb_categoria (name) VALUES ('Sobremesas');
+INSERT INTO tb_categoria (name) VALUES ('Bebidas');
+INSERT INTO tb_categoria (name) VALUES ('Sopas');
+INSERT INTO tb_categoria (name) VALUES ('Salgados');
+INSERT INTO tb_categoria (name) VALUES ('Vegano');
+INSERT INTO tb_categoria (name) VALUES ('Pizza');
+INSERT INTO tb_categoria (name) VALUES ('Frutos do Mar');
+INSERT INTO tb_categoria (name) VALUES ('Oriental');
+INSERT INTO tb_categoria (name) VALUES ('Hamburguer');
+INSERT INTO tb_categoria (name) VALUES ('Café');
+INSERT INTO tb_categoria (name) VALUES ('Acompanhamentos');
+INSERT INTO tb_categoria (name) VALUES ('Saladas');
+
+-- PRODUTOS
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Espaguete à Bolonhesa', 29.90, 1, 3);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Picanha na Chapa', 59.90, 2, 1);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Salmão Grelhado', 45.50, 3, 9);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Petit Gateau', 18.00, 4, 2);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Suco Natural', 8.50, 5, 4);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Caldo Verde', 12.00, 6, 5);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Coxinha de Frango', 6.00, 7, 4);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Feijoada Vegana', 24.00, 8, 8);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Pizza Margherita', 32.00, 9, 3);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Camarão ao Alho', 58.90, 10, 9);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Sushi Combinado', 42.00, 11, 6);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('X-Burguer Duplo', 22.90, 12, 7);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Café Expresso', 5.00, 13, 10);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Batata Frita', 12.00, 14, 7);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Salada Caesar', 16.00, 15, 8);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Lasanha de Queijo', 31.00, 1, 3);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Costela BBQ', 55.00, 2, 5);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Moqueca de Peixe', 49.00, 3, 9);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Pudim de Leite', 14.00, 4, 10);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Refrigerante Lata', 6.00, 5, 2);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Sopa de Mandioquinha', 11.50, 6, 1);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Pastel de Carne', 7.50, 7, 5);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Hamburguer Vegano', 20.00, 8, 8);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Pizza Portuguesa', 34.00, 9, 3);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Lula à Dorê', 52.00, 10, 9);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Temaki de Atum', 19.90, 11, 6);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Cheeseburguer Bacon', 25.00, 12, 7);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Café com Leite', 6.00, 13, 10);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Farofa de Banana', 9.50, 14, 5);
+INSERT INTO tb_produto (name, price, categoria_id, rest_id) VALUES ('Salada Grega', 17.00, 15, 8);
