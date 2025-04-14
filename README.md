@@ -38,6 +38,7 @@ O projeto segue a arquitetura em camadas:
 | GET | `/restaurantes/min` | Lista versão simplificada dos restaurantes |
 | POST | `/restaurantes` | Cadastra um novo restaurante |
 | PUT | `/restaurantes/{id}` | Atualiza informações de um restaurante específico |
+| DELETE | `/restaurantes/{id}` | Deleta informações de um restaurante específico |
 ## Como Executar o Projeto
 1. Clone o repositório:
 ``` 
